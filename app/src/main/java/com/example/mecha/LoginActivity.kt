@@ -1,5 +1,6 @@
 package com.example.mecha
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -38,6 +39,10 @@ class LoginActivity : AppCompatActivity() {
                 tvdatos.text = "Llena todos los campos."
                 Toast.makeText(this, "faltan llenar los campos", Toast.LENGTH_SHORT).show()
             }
+
+        }
+
+        btnregistrar.setOnClickListener {
 
         }
 
